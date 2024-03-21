@@ -1,0 +1,14 @@
+
+.example-demo {
+    border: 0.2em solid crimson;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.example-demo p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    color: hotpink;
+}
+
