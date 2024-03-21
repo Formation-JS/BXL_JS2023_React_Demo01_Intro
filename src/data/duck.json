@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "firstname": "Della",
+        "lastname": "Duck",
+        "birthdate": "1970-05-15",
+        "gender": "f"
+    },
+    {
+        "id": 2,
+        "firstname": "Balthazar",
+        "lastname": "Picsou",
+        "birthdate": "1947-12-10",
+        "gender": "m"
+    },
+    {
+        "id": 3,
+        "firstname": "Zaza",
+        "lastname": "Vanderquack",
+        "birthdate": "2000-03-20",
+        "gender": "f"
+    },
+    {
+        "id": 4,
+        "firstname": "Hortance",
+        "lastname": "McDuck",
+        "birthdate": "1965-08-02",
+        "gender": "f"
+    },
+    {
+        "id": 5,
+        "firstname": "Donald",
+        "lastname": "Duck",
+        "birthdate": "1970-05-15",
+        "gender": "m"
+    }
+]
