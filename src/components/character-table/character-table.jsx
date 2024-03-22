@@ -21,7 +21,7 @@ const CharacterTableRow = ({ firstname, lastname, birthdate, gender }) => (
 const CharacterTable = ({characters}) => {
 
     const charactersJSX = characters.map(
-        character => <CharacterTableRow {...character}  />
+        character => <CharacterTableRow {...character} key={character.id}  />
     );
 
     return (
@@ -35,6 +35,10 @@ const CharacterTable = ({characters}) => {
             </table>
         </>
     )
+}
+
+CharacterTable.defaultProps = {
+    characters: []
 }
 
 export default CharacterTable;
