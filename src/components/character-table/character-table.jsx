@@ -1,3 +1,5 @@
+import GenderDisplay from '../gender-display/gender-display.jsx';
+
 const CharacterTableHeader = () => (
     <thead>
         <tr>
@@ -12,7 +14,7 @@ const CharacterTableRow = ({ firstname, lastname, birthdate, gender }) => (
     <tr>
         <td>{firstname} {lastname}</td>
         <td>{birthdate}</td>
-        <td>{gender}</td>
+        <td><GenderDisplay gender={gender}/></td>
     </tr>
 );
 
